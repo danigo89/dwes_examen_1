@@ -1,4 +1,4 @@
-# Ricksy Business
+# Ricksy Business Multiversal
 Mientras Jerry y Beth salen para participar en un evento que pretende recrear el hundimiento del Titanic, Summer organiza una fiesta en casa bajo el consentimiento de Rick que se integra a la fiesta e incluso invita a varios de sus amigos.
 
 No obstante, esta fiesta va a tener la particularidad de existir en múltiples dimensiones a la vez con invitados de diferentes universos (¡e incluso los muertos revivirán!). En primer lugar, para saber que dimensión te corresponde debes editar la variable <strong>$seed</strong> con las 4 últimas cifras (solo números) de tu DNI.
@@ -9,7 +9,8 @@ La ciudadela de los Ricks ha puesto a disposición de todas las dimensiones que 
 
 Para poder facilitar la información al Rick portero de tu dimensión, vas a desarrollar una aplicación que muestre los invitados atendiendo a las siguientes instrucciones.
 
-- En primer lugar se debe <ins>crear un repositorio <strong>privado</strong> en github que compartiremos con el profesor</ins>, en este caso <strong>allabresdawsf</strong>.
+- En primer lugar se debe crear un <ins>nuevo proyecto en tu entorno de desarrollo</ins>, de tal modo que durante el desarrollo de la aplicación no vas a poder acceder a ningún proyecto que no sea el que se esta llevando a cabo.
+- Se debe <ins>crear un repositorio <strong>privado</strong> en github que compartiremos con el profesor</ins>, en este caso <strong>allabresdawsf</strong>.
 - Se deberá poder seleccionar el orden en que se presenten los candidatos en el formulario superior, los criterios de ordenación seran por <strong>"id"</strong> por <strong>"origin"</strong> y por <strong>"status"</strong> (Vivo o no).
 - Los listados de episodios y ubicaciones pueden ser <strong><ins>opcionalmente</ins></strong> ordenados para una mayor comodidad del programador a la hora de proceder al mapeo de los invitados.
 - Una vez <strong><ins>la lista de invitados</ins></strong> se encuentre ordenada según el criterio seleccionado por el usuario, debe ser mapeada de la siguiente forma:
@@ -21,3 +22,10 @@ Para poder facilitar la información al Rick portero de tu dimensión, vas a des
 - Si algún invitado (<strong>$character</strong>) no ha sido correctamente mapeado, nos saldrá un listado de sus errores en su tarjeta (<strong><ins>Debemos resolverlos</ins></strong>).
 
 Una vez finalizada la aplicación, esta debe subirse al repositorio privado (Github) y desplegarse en el entorno habilitado para ello para cada alumno (FTP).
+
+Únicamente pueden usarse las funciones predefinidas de PHP siguientes:
+- intval()
+- isset()
+- count()
+
+En caso de considerar necesario el uso de una función predefinida de PHP que no se encuentre en el listado anterior debera consultarse con el profesor.
