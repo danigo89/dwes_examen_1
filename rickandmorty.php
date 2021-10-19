@@ -54,7 +54,7 @@ function renderCard($character)
     return $result;
 }
 
-//NOTE: $sortingCriteria reveive the sorting criteria of the form. Don't edit
+//NOTE: $sortingCriteria receive the sorting criteria of the form. Don't edit
 $sortingCriteria = "";
 if (isset($_GET["sortingCriteria"])) {
     $sortingCriteria = $_GET["sortingCriteria"];
