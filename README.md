@@ -9,8 +9,13 @@ La ciudadela de los Ricks ha puesto a disposición de todas las dimensiones que 
 
 Para poder facilitar la información al Rick portero de tu dimensión, vas a desarrollar una aplicación que muestre los invitados atendiendo a las siguientes instrucciones.
 
+Configuración previa:
 - En primer lugar se debe crear un <ins>nuevo proyecto en tu entorno de desarrollo</ins>, de tal modo que durante el desarrollo de la aplicación no vas a poder acceder a ningún proyecto que no sea el que se esta llevando a cabo.
 - Se debe <ins>crear un repositorio <strong>privado</strong> en github que compartiremos con el profesor</ins>, en este caso <strong>allabresdawsf</strong>.
+- Crear un entorno de despliegue en el servidor FTP facilitado por el profesor.
+- Crear el archivo rickandmorty.php en la raiz de tu proyecto y pegar el contenido del mismo archivo que encontraremos en la raiz de este repositorio.
+
+Requisitos de aplicación:
 - Se deberá poder seleccionar el orden en que se presenten los candidatos en el formulario superior, los criterios de ordenación seran por <strong>"id"</strong> por <strong>"origin"</strong> y por <strong>"status"</strong> (Vivo o no).
 - Los listados de episodios y ubicaciones pueden ser <strong><ins>opcionalmente</ins></strong> ordenados para una mayor comodidad del programador a la hora de proceder al mapeo de los invitados.
 - Una vez <strong><ins>la lista de invitados</ins></strong> se encuentre ordenada según el criterio seleccionado por el usuario, debe ser mapeada de la siguiente forma:
