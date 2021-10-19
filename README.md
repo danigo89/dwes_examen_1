@@ -10,7 +10,7 @@ La ciudadela de los Ricks ha puesto a disposición de todas las dimensiones que 
 Para poder facilitar la información al Rick portero de tu dimensión, vas a desarrollar una aplicación que muestre los invitados atendiendo a las siguientes instrucciones.
 
 Configuración previa:
-- En primer lugar se debe crear un <ins>nuevo proyecto en tu entorno de desarrollo</ins>, de tal modo que durante el desarrollo de la aplicación no vas a poder acceder a ningún proyecto que no sea el que se esta llevando a cabo.
+- En primer lugar se debe crear un <ins>nuevo proyecto en tu entorno de desarrollo</ins>, de tal modo que durante el desarrollo de la aplicación no vas a poder acceder a ningún proyecto que no sea el que se está llevando a cabo.
 - Se debe <ins>crear un repositorio <strong>privado</strong> en github que compartiremos con el profesor</ins>, en este caso <strong>allabresdawsf</strong>.
 - Crear un entorno de despliegue en el servidor FTP facilitado por el profesor.
 - Crear el archivo rickandmorty.php en la raiz de tu proyecto y pegar el contenido del mismo archivo que encontraremos en la raiz de este repositorio.
